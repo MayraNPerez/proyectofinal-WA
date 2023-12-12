@@ -1,74 +1,62 @@
 /*Header - Inicio*/
 .index{
-        background-image: url(../assets/Ballena\ austral\ 1.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        margin: 0;
-        height: 100vh;
-        width: 100%;
+
+    background-image: url(../assets/Ballena\ austral\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
     
-        div{
+    div{
             
-            .nav{
-            display: flex;
-            justify-content: center;
-            padding: 10px;
+        .nav{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
     
-                a{
+            a{
                 color: blanchedalmond;
                 font-size: 18px;
                 text-decoration: none;
                 display: flex;
                 justify-content: center;
                 padding: 0 15px;
-                }
-    
-                a:hover{
-                color: coral;
-                }
             }
+
+            a:hover{
+                color: coral;
+            }
+    
         }
-        .titulo-header1{
+    }
+    .titulo-header1{
         margin: 0;
         font-size: 3em;
         position: absolute;
         top:44%;
         left:6%;
         }
-        .titulo2-header1{
-            font-size: 4em;
-            position: absolute;
-            top: 48%;
-            color: blanchedalmond;
-        }
-        .slogan1{
-            font-size: 20px;
-            color: blanchedalmond;
-            position: absolute;
-            top: 90%;
-            left: 22%;
-        }
-        }
+    .titulo2-header1{
+        font-size: 4em;
+        position: absolute;
+        top: 48%;
+        color: blanchedalmond;
+    }
+    .slogan1{
+        font-size: 20px;
+        color: blanchedalmond;
+        position: absolute;
+        top: 90%;
+        left: 22%;
+    }
+}
+    
         
 @media screen and (min-width: 480px){
-
-    .nav{
-        justify-content:center;
-        padding: 10px 30px;
-
-        a{
-        color: blanchedalmond;
-        font-size: 20px;
-        text-decoration: none;
-        display: flex;
-        justify-content:center;
-        padding: 0px 30px;}
-            a:hover{
-                color: coral;
-        }
-    }
+    
     .index{
         .titulo-header1{
             position: absolute;
@@ -92,8 +80,29 @@
         }
     
     }
+
+    .nav{
+        justify-content:center;
+        padding: 10px 30px;
+
+        a{
+            color: blanchedalmond;
+            font-size: 20px;
+            text-decoration: none;
+            display: flex;
+            justify-content:center;
+            padding: 0px 30px;
+        }
+
+        a:hover{
+            color: coral;
+        }
+        
+    }
+    
 }
 /*Header - Fauna*/
+
 .fauna{
     overflow: hidden;
     background-image: url(../ASSETS/pumma.jpg);
@@ -104,6 +113,7 @@
     height: 100vh;
     width: 100%;
 }
+
 .f-pampeana{
     height: 100%;
     width: 100%;
@@ -111,6 +121,7 @@
     text-align: center;
     margin:20px 0;
 }
+
 div{
             
     .nav{
@@ -119,19 +130,20 @@ div{
     padding: 10px;
 
         a{
-        color: blanchedalmond;
-        font-size: 18px;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-        padding: 0 15px;
+            color: blanchedalmond;
+            font-size: 18px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            padding: 0 15px;
         }
 
         a:hover{
-        color: coral;
+            color: coral;
         }
     }
 }
+
 .titulo-header{
 margin: 0;
 font-size: 3em;
@@ -139,12 +151,14 @@ position: absolute;
 top:44%;
 left:6%;
 }
+
 .titulo2-header{
     font-size: 4em;
     position: relative;
     top: 35%;
     color: blanchedalmond;
 }
+
 .slogan{
     font-size: 20px;
     color: blanchedalmond;
@@ -155,44 +169,49 @@ left:6%;
 
 @media screen and (min-width: 480px){
 
-.nav{
-    justify-content:center;
-    padding: 10px 30px;
-
-    a{
-        color: blanchedalmond;
-        font-size: 20px;
-        text-decoration: none;
-        display: flex;
+    .nav{
         justify-content:center;
-        padding: 0px 30px;}
+        padding: 10px 30px;
+
+        a{
+            color: blanchedalmond;
+            font-size: 20px;
+            text-decoration: none;
+            display: flex;
+            justify-content:center;
+            padding: 0px 30px;
+        }
+
         a:hover{
             color: coral;
         }
-}
-.titulo-header{
-    position: absolute;
-    top:40%;
-    left: 10%;
-    font-size: 5em;
-}
+    }
 
-.titulo2-header{
-    position: absolute;
-    top:46%;
-    left: 5%;
-    font-size: 6em;
-}
-.slogan{
-    font-size: 25px;
-    color: blanchedalmond;
-    position: absolute;
-    top: 90%;
-    left: 43%;
-}
+    .titulo-header{
+        position: absolute;
+        top:40%;
+        left: 10%;
+        font-size: 5em;
+    }
+
+    .titulo2-header{
+        position: absolute;
+        top:46%;
+        left: 5%;
+        font-size: 6em;
+    }
+
+    .slogan{
+        font-size: 25px;
+        color: blanchedalmond;
+        position: absolute;
+        top: 90%;
+        left: 43%;
+    }
 }
 
 /*Header - Geografía*/
+
 .geografia{
     overflow: hidden;
     background-image: url(../ASSETS/Las\ islas\ Malvinas\ en\ frente\ a\ la\ ciudad\ de\ Rio\ Gallegos\ capital\ de\ la\ provincia\ de\ santa\ Cruz\ geografia\ argentina\ Faustto\ Guerrero.jpg);
@@ -206,37 +225,40 @@ left:6%;
     div{
         
         .nav{
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-
-            a{
-            color: blanchedalmond;
-            font-size: 18px;
-            text-decoration: none;
             display: flex;
             justify-content: center;
-            padding: 0 15px;
+            padding: 10px;
+
+            a{
+                color: blanchedalmond;
+                font-size: 18px;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                padding: 0 15px;
             }
 
             a:hover{
-            color: coral;
+                color: coral;
             }
         }
     }
+
     .titulo-header1{
-    margin: 0;
-    font-size: 3em;
-    position: absolute;
-    top:44%;
-    left:6%;
+        margin: 0;
+        font-size: 3em;
+        position: absolute;
+        top:44%;
+        left:6%;
     }
+
     .titulo2-header1{
         font-size: 4em;
         position: absolute;
         top: 48%;
         color: blanchedalmond;
     }
+
     .slogan1{
         font-size: 20px;
         color: blanchedalmond;
@@ -245,3 +267,73 @@ left:6%;
         left: 22%;
     }
     }
+
+/*Header - Cultura*/
+
+.cultura{
+    background-image: url(/assets/tango.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+div{
+            
+    .nav{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    
+        a{
+            color: blanchedalmond;
+            font-size: 18px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            padding: 0 15px;
+        }
+
+        a:hover{
+            color: coral;
+        }
+    }
+}
+
+/*Header - Contacto*/
+
+.contacto{
+    background-image: url(../ASSETS/fondo-contacto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+div{
+            
+    .nav{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    
+        a{
+            color: blanchedalmond;
+            font-size: 18px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            padding: 0 15px;
+        }
+
+        a:hover{
+            color: coral;
+        }
+    }
+}

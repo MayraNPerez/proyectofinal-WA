@@ -1,14 +1,14 @@
-/*FOOTER - INICIO*/
-    .contenedor-footer{
-        background-image: url(/assets/fondo-footer.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        height: 90vh;
-        max-width: 100%;
-        overflow: hidden;
-    }
+/*Footer - Inicio*/
+
+.contenedor-footer{
+    background-image: url(/assets/fondo-footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    max-width: 100%;
+    overflow: hidden;
     
     .nombre-footer{
         position: relative;
@@ -46,25 +46,32 @@
         font-size: 20px;
         color: blanchedalmond;
     }
-    @media screen and (min-width: 480px){
+}
+
+@media screen and (min-width: 480px){
+
     .nombre-footer{
         position: relative;
         top:40%;
         left: 18%;
         color: black;
     }
+
     .nombre-footer span{
         font-size: 65px;
     }
+
     .nombre2-footer{
         position: relative;
         top:30%;
         left: 13%;
         color: rgba(255, 235, 205, 0.726);
     }
+
     .nombre2-footer span{
         font-size: 75px;
     }
+
     .footer1{
         font-size: 20px;
         position: relative;
@@ -77,7 +84,9 @@
         font-size: 25px;
     }
 }
+
 /*Footer - Fauna*/
+
 .contenedorfauna-footer{
     background-image: url(../ASSETS/foote-fauna.jpg);
     background-position: center;
@@ -88,7 +97,9 @@
     max-width: 100%;
     overflow: hidden;
 }
+
 /*Footer - Geografia*/
+
 .contenedorgeo-footer{
     background-image: url(../ASSETS/footer-geo2.png);
     background-position: center;
@@ -97,62 +108,85 @@
     background-attachment: fixed;
     overflow: hidden;
     height: 90vh;
-}
-.nombre-footer3{
-    position: relative;
-    top: 25%;
-    left: 25%;
-span{
-    font-size: 45px;
-}
-}
-.nombre2-footer3{
-    position: relative;
-    top: 18%;
-    left: 13%;
-span{
-    font-size: 55px;
-    color: rgba(255, 255, 255, 0.747);
-}
-}
-.footer3{
-    position: relative;
-    top: 20%;
-    left: 20%;
 
-    p{
-        color: rgba(255, 255, 255, 0.747);
+    .nombre-footer3{
+        position: relative;
+        top: 25%;
+        left: 25%;
+
+        span{
+            font-size: 45px;
+        }
     }
 
-    .redes3{
-        font-size: 25px;
-        font-weight: bold;
-        color: rgba(255, 255, 255, 0.747);
+    .nombre2-footer3{
+        position: relative;
+        top: 18%;
+        left: 13%;
+        
+        span{
+            font-size: 55px;
+            color: rgba(255, 255, 255, 0.747);
+        }
+    }
+
+    .footer3{
+        position: relative;
+        top: 20%;
+        left: 20%;
+
+        p{
+            color: rgba(255, 255, 255, 0.747);
+        }
+
+        .redes3{
+            font-size: 25px;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.747);
+        }
     }
 }
+
 @media screen and (min-width: 480px){
     .nombre-footer3{
         position: relative;
         top: 35%;
         left: 25%;
+
         span{
             font-size: 5em;
         }
     }
+
     .nombre2-footer3{
         position: relative;
         top: 21%;
         left: 18%;
+
         span{
             font-size: 6em;
         }
     }
+
     .footer3{
         position: relative;
         top: -8%;
         left: 63%;
+
         p{
             font-size: 1.3em;
         }
     }
+}
+
+/*Footer - Cultura*/
+
+.contenedorcul-footer{
+    background-image: url(../ASSETS/footer-cultura2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 90vh;
 }

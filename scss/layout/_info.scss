@@ -1,4 +1,27 @@
+/*Información - Inicio*/
+
+.introduccion-contenedor{
+    height: 100vh;
+    padding: 100px 30px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .introduccion{
+        padding: 30px 15px;
+
+        .republica-argentina{
+            color: rgb(99, 99, 180);
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+}
+
 /*Información - Fauna*/
+
 .f-pampeana{
     height: 100%;
     width: 100%;
@@ -9,11 +32,14 @@
     .ft-pampeana {
         display: block;
     }
+
     div{
+
         img{
             height: 200px;
             width: 250px;
         }
+
         h5{
             padding-top: 15px;
             text-decoration: underline;
@@ -32,10 +58,12 @@
         display: block;
     }
     div{
+
         img{
             height: 200px;
             width: 250px;
         }
+
         h5{
             padding-top: 15px;
             text-decoration: underline;
@@ -53,11 +81,14 @@
     .ft-noroeste{
         display: block;
     }
+
     div{
+
         img{
             height: 200px;
             width: 250px;
         }
+
         h5{
             padding-top: 15px;
             text-decoration: underline;
@@ -75,11 +106,14 @@
     .ft-noreste{
         display: block;
     }
+
     div{
+
         img{
             height: 200px;
             width: 250px;
         }
+
         h5{
             padding-top: 15px;
             text-decoration: underline;
@@ -97,11 +131,14 @@
     .ft-cuyo{
         display: block;
     }
+
     div{
+
         img{
             height: 200px;
             width: 250px;
         }
+
         h5{
             padding-top: 15px;
             text-decoration: underline;
@@ -119,30 +156,37 @@
     .descripciones{
         display: flex;
         justify-content: center;
+    }
 }
-}
+
 /*Información - Geografía*/
+
 .contenedor-geografia2{ 
     p{
-    text-align: center;
+        text-align: center;
+
         span{
             font-size: 20px;
             font-weight: bold;
         }
     }
+
     img{
-    height: 200px;
-    width: 275px;
-    position: relative;
-    top: 50%;
-    left: 5%;
-    padding: 15px 5px;
-}
+        height: 200px;
+        width: 275px;
+        position: relative;
+        top: 50%;
+        left: 5%;
+        padding: 15px 5px;
+    }
 }
 
 @media screen and (min-width: 480px){
+
     .contenedor-geografia{
+
         .contenedor-geografia2{
+
             img{
                 position: relative;
                 top: 50%;
@@ -150,9 +194,94 @@
                 height: 300px;
                 width: 500px;
             }
+
             p{
                 padding: 50px;
             }
+        }
+    }
+}
+
+/*Información - Contacto*/
+
+.main-contacto{
+    padding: 0.3em 1.3em;
+
+    .contenedor-contacto{
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.8em;
+
+        .contact{
+            font-size: 1.2em;
+            text-align: center;
+            padding-bottom: 15px;
+            .contacto-span{
+                color: rgba(2, 2, 2, 0.747);
+            }
+        }
+    }
+
+    .contenido-contacto{
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        padding: 1.5em;
+
+        .contact-form {
+
+            h3{
+                padding-bottom: 1em;
+            }
+
+            form {
+
+                p {
+                    button{
+                        background-color: blanchedalmond;
+                        border: 0;
+                        padding: 0.3em;
+                        width: 100%;
+                        border: none;
+                        border: 1px solid;
+                
+                        &:hover{
+                            background-color:burlywood;
+                        }
+                    }
+                }
+
+                p {
+                    input{
+                        width: 100%;
+                        border: none;
+                        border-bottom: 1px solid;
+                    }
+                }
+
+                p {
+                    textarea{
+                        width: 100%;
+                        border: none;
+                        border-bottom: 1px solid;
+                    }
+                }
+            }
+        }
+
+        .contact-info{
+            background-color: #222222;
+            color: rgba(255, 255, 255, 0.747);
+            padding: 1.5em;
+
+            h4{
+                text-align: center;
+                text-decoration:underline;
+                padding-bottom: 0.7em;
+            }
+            ul{
+                list-style: none;
+            }
+            
         }
     }
 }
