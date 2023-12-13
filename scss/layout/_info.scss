@@ -1,3 +1,6 @@
+$alto: 200px;
+$ancho: 250;
+
 /*Información - Inicio*/
 
 .introduccion-contenedor{
@@ -36,8 +39,8 @@
     div{
 
         img{
-            height: 200px;
-            width: 250px;
+            height: $alto;
+            width: $ancho;
         }
 
         h5{
@@ -60,8 +63,8 @@
     div{
 
         img{
-            height: 200px;
-            width: 250px;
+            height: $alto;
+            width: $ancho;
         }
 
         h5{
@@ -85,8 +88,8 @@
     div{
 
         img{
-            height: 200px;
-            width: 250px;
+            height: $alto;
+            width: $ancho;
         }
 
         h5{
@@ -110,8 +113,8 @@
     div{
 
         img{
-            height: 200px;
-            width: 250px;
+            height: $alto;
+            width: $ancho;
         }
 
         h5{
@@ -135,8 +138,8 @@
     div{
 
         img{
-            height: 200px;
-            width: 250px;
+            height: $alto;
+            width: $ancho;
         }
 
         h5{
@@ -217,6 +220,7 @@
             font-size: 1.2em;
             text-align: center;
             padding-bottom: 15px;
+            
             .contacto-span{
                 color: rgba(2, 2, 2, 0.747);
             }
@@ -263,6 +267,13 @@
                         width: 100%;
                         border: none;
                         border-bottom: 1px solid;
+                        height: 30px;
+                        transition: height 1s;
+
+                        &:hover{
+                            height: 200px;
+                        }
+                        }
                     }
                 }
             }
@@ -283,5 +294,4 @@
             }
             
         }
-    }
 }

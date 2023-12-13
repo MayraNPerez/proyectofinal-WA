@@ -1,3 +1,5 @@
+$color-rgba: rgba(255, 235, 205, 0.726);
+
 /*Footer - Inicio*/
 
 .contenedor-footer{
@@ -10,7 +12,7 @@
     max-width: 100%;
     overflow: hidden;
     
-    .nombre-footer{
+    .nombre-footer-index{
         position: relative;
         top:25%;
         left: 26%;
@@ -20,11 +22,11 @@
         }
     }
     
-    .nombre2-footer{
+    .nombre2-footer-index{
         position: relative;
         top:17%;
         left: 5%;
-        color: rgba(255, 235, 205, 0.726);
+        color: $color-rgba;
         font-size: 50px;
 
         span{
@@ -32,7 +34,7 @@
         }
     }
 
-    .footer1{
+    .footer-index{
         font-size: 15px;
         position: relative;
         top:25%;
@@ -40,7 +42,7 @@
         color: blanchedalmond;
     }
 
-    .redes1{
+    .redes-index{
         font-weight: bold;
         text-decoration: underline;
         font-size: 20px;
@@ -50,38 +52,44 @@
 
 @media screen and (min-width: 480px){
 
-    .nombre-footer{
-        position: relative;
-        top:40%;
-        left: 18%;
-        color: black;
-    }
+    .contenedor-footer{
 
-    .nombre-footer span{
-        font-size: 65px;
-    }
+        .nombre-footer-index{
+            position: relative;
+            top:37%;
+            left: 18%;
+            color: black;
+        
+            span{
+                font-size: 5em;
+            }
+        }
 
-    .nombre2-footer{
-        position: relative;
-        top:30%;
-        left: 13%;
-        color: rgba(255, 235, 205, 0.726);
-    }
+        .nombre2-footer-index{
+            position: relative;
+            top:23%;
+            left: 13%;
+            color: $color-rgba;
+        
+            span{
+                font-size: 2em;
+            }
+        }
 
-    .nombre2-footer span{
-        font-size: 75px;
-    }
-
-    .footer1{
-        font-size: 20px;
-        position: relative;
-        top: 0%;
-        left: 60%;
-    }
-    .redes1{
-        font-weight: bold;
-        text-decoration: underline;
-        font-size: 25px;
+        .footer-index{
+            font-size: 20px;
+            position: relative;
+            top: -5%;
+            left: 60%;
+            color: $color-rgba;
+    
+            .redes-index{
+                font-weight: bold;
+                text-decoration: underline;
+                font-size: 25px;
+                color: $color-rgba;
+            }
+        }
     }
 }
 
@@ -96,6 +104,69 @@
     height: 90vh;
     max-width: 100%;
     overflow: hidden;
+
+    .nombre-footer-fauna{
+        position: relative;
+        top: 25%;
+        left: 25%;
+        color: $color-rgba;
+
+        span{
+            font-size: 3.3em;
+        }
+    }
+    .nombre2-footer-fauna{
+        position: relative;
+        top:15%;
+        left: 10%;
+        color: $color-rgba;
+
+        span{
+            font-size: 4em;
+        }
+    }
+    .footer-fauna{
+        position: relative;
+        top: 18%;
+        left: 20%;
+        color: $color-rgba;
+
+        .redes-fauna{
+            font-size: 1.5em;
+            text-decoration: underline;
+        }
+    }
+}
+
+@media screen and (min-width: 480px){
+
+    .contenedorfauna-footer{
+
+        .nombre-footer-fauna{
+            position: relative;
+            top: 33%;
+            left: 15%;
+
+            span{
+                font-size: 5em;
+            }
+        }
+        .nombre2-footer-fauna{
+            position: relative;
+            top: 20%;
+            left: 10%;
+
+            span{
+                font-size: 6em;
+            }
+        }
+        .footer-fauna{
+            position: relative;
+            top:-8%;
+            left: 60%;
+            font-size: 1.2em;
+        }
+    }
 }
 
 /*Footer - Geografia*/
@@ -109,7 +180,7 @@
     overflow: hidden;
     height: 90vh;
 
-    .nombre-footer3{
+    .nombre-footer-geo{
         position: relative;
         top: 25%;
         left: 25%;
@@ -119,62 +190,65 @@
         }
     }
 
-    .nombre2-footer3{
+    .nombre2-footer-geo{
         position: relative;
         top: 18%;
         left: 13%;
         
         span{
             font-size: 55px;
-            color: rgba(255, 255, 255, 0.747);
+            color: $color-rgba;
         }
     }
 
-    .footer3{
+    .footer-geo{
         position: relative;
         top: 20%;
         left: 20%;
 
         p{
-            color: rgba(255, 255, 255, 0.747);
+            color: $color-rgba;
         }
 
-        .redes3{
+        .redes-geo{
             font-size: 25px;
             font-weight: bold;
-            color: rgba(255, 255, 255, 0.747);
+            color: $color-rgba;
         }
     }
 }
 
 @media screen and (min-width: 480px){
-    .nombre-footer3{
-        position: relative;
-        top: 35%;
-        left: 25%;
 
-        span{
-            font-size: 5em;
+    .contenedorgeo-footer{
+        .nombre-footer-geo{
+            position: relative;
+            top: 35%;
+            left: 25%;
+
+            span{
+                font-size: 5em;
+            }
         }
-    }
 
-    .nombre2-footer3{
-        position: relative;
-        top: 21%;
-        left: 18%;
+        .nombre2-footer-geo{
+            position: relative;
+            top: 21%;
+            left: 18%;
 
-        span{
-            font-size: 6em;
+            span{
+                font-size: 6em;
+            }
         }
-    }
 
-    .footer3{
-        position: relative;
-        top: -8%;
-        left: 63%;
+        .footer-geo{
+            position: relative;
+            top: -8%;
+            left: 63%;
 
-        p{
-            font-size: 1.3em;
+            p{
+                font-size: 1.3em;
+            }
         }
     }
 }
@@ -189,4 +263,73 @@
     background-attachment: fixed;
     overflow: hidden;
     height: 90vh;
+
+    .nombre-footer-cul{
+        position: relative;
+        top: 25%;
+        left: 25%;
+
+        span{
+            font-size: 45px;
+        }
+    }
+
+    .nombre2-footer-cul{
+        position: relative;
+        top: 18%;
+        left: 13%;
+        
+        span{
+            font-size: 55px;
+            color: $color-rgba;
+        }
+    }
+
+    .footer-cul{
+        position: relative;
+        top: 20%;
+        left: 20%;
+
+        .redes-cul{
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (min-width: 480px){
+
+    .contenedorcul-footer{
+
+            .nombre-footer-cul{
+                position: relative;
+                top: 35%;
+                left: 25%;
+        
+                span{
+                    font-size: 5em;
+                }
+            }
+        
+            .nombre2-footer-cul{
+                position: relative;
+                top: 21%;
+                left: 18%;
+        
+                span{
+                    font-size: 6em;
+                }
+            }
+        
+            .footer-cul{
+                position: relative;
+                top: -8%;
+                left: 63%;
+        
+                p{
+                    font-size: 1.3em;
+                }
+            }
+
+    }
 }

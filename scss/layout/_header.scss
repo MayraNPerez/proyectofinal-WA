@@ -1,3 +1,5 @@
+$color-secondary: blanchedalmond;
+
 /*Header - Inicio*/
 .index{
 
@@ -18,7 +20,7 @@
         padding: 10px;
     
             a{
-                color: blanchedalmond;
+                color: $color-secondary;
                 font-size: 18px;
                 text-decoration: none;
                 display: flex;
@@ -32,22 +34,24 @@
     
         }
     }
+
     .titulo-header1{
         margin: 0;
         font-size: 3em;
         position: absolute;
         top:44%;
         left:6%;
-        }
+    }
+
     .titulo2-header1{
         font-size: 4em;
         position: absolute;
         top: 48%;
-        color: blanchedalmond;
+        color: $color-secondary;
     }
     .slogan1{
         font-size: 20px;
-        color: blanchedalmond;
+        color: $color-secondary;
         position: absolute;
         top: 90%;
         left: 22%;
@@ -60,20 +64,20 @@
     .index{
         .titulo-header1{
             position: absolute;
-            top:40%;
-            left: 10%;
-            font-size: 5em;
+            top:39%;
+            left: 15%;
+            font-size: 6em;
         }
         
         .titulo2-header1{
             position: absolute;
             top:46%;
-            left: 5%;
-            font-size: 6em;
+            left: 10%;
+            font-size: 7em;
         }
         .slogan1{
             font-size: 25px;
-            color: blanchedalmond;
+            color: $color-secondary;
             position: absolute;
             top: 90%;
             left: 43%;
@@ -86,7 +90,7 @@
         padding: 10px 30px;
 
         a{
-            color: blanchedalmond;
+            color: $color-secondary;
             font-size: 20px;
             text-decoration: none;
             display: flex;
@@ -130,7 +134,7 @@ div{
     padding: 10px;
 
         a{
-            color: blanchedalmond;
+            color: $color-secondary;
             font-size: 18px;
             text-decoration: none;
             display: flex;
@@ -156,12 +160,12 @@ left:6%;
     font-size: 4em;
     position: relative;
     top: 35%;
-    color: blanchedalmond;
+    color: $color-secondary;
 }
 
 .slogan{
     font-size: 20px;
-    color: blanchedalmond;
+    color: $color-secondary;
     position: absolute;
     top: 87%;
     left: 37%;
@@ -174,7 +178,7 @@ left:6%;
         padding: 10px 30px;
 
         a{
-            color: blanchedalmond;
+            color: $color-secondary;
             font-size: 20px;
             text-decoration: none;
             display: flex;
@@ -189,21 +193,21 @@ left:6%;
 
     .titulo-header{
         position: absolute;
-        top:40%;
-        left: 10%;
-        font-size: 5em;
+        top:39%;
+        left: 15%;
+        font-size: 6em;
     }
 
     .titulo2-header{
         position: absolute;
         top:46%;
-        left: 5%;
-        font-size: 6em;
+        left: 10%;
+        font-size: 7em;
     }
 
     .slogan{
         font-size: 25px;
-        color: blanchedalmond;
+        color: $color-secondary;
         position: absolute;
         top: 90%;
         left: 43%;
@@ -230,7 +234,7 @@ left:6%;
             padding: 10px;
 
             a{
-                color: blanchedalmond;
+                color: $color-secondary;
                 font-size: 18px;
                 text-decoration: none;
                 display: flex;
@@ -256,12 +260,12 @@ left:6%;
         font-size: 4em;
         position: absolute;
         top: 48%;
-        color: blanchedalmond;
+        color: $color-secondary;
     }
 
     .slogan1{
         font-size: 20px;
-        color: blanchedalmond;
+        color: $color-secondary;
         position: absolute;
         top: 90%;
         left: 22%;
@@ -289,7 +293,7 @@ div{
         padding: 10px;
     
         a{
-            color: blanchedalmond;
+            color: $color-secondary;
             font-size: 18px;
             text-decoration: none;
             display: flex;
@@ -324,7 +328,7 @@ div{
         padding: 10px;
     
         a{
-            color: blanchedalmond;
+            color: $color-secondary;
             font-size: 18px;
             text-decoration: none;
             display: flex;
