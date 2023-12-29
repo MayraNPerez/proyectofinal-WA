@@ -8,7 +8,7 @@
 
 /*Header - Inicio*/
 .index {
-  background-image: url(../assets/Ballena\ austral\ 1.jpg);
+  background-image: url(../../assets/Ballena\ austral\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -93,7 +93,7 @@
 /*Header - Fauna*/
 .fauna {
   overflow: hidden;
-  background-image: url(../ASSETS/pumma.jpg);
+  background-image: url(../../assets/pumma.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -189,7 +189,7 @@ div .nav a:hover {
 /*Header - Geografía*/
 .geografia {
   overflow: hidden;
-  background-image: url(../ASSETS/Las\ islas\ Malvinas\ en\ frente\ a\ la\ ciudad\ de\ Rio\ Gallegos\ capital\ de\ la\ provincia\ de\ santa\ Cruz\ geografia\ argentina\ Faustto\ Guerrero.jpg);
+  background-image: url(../../assets/Las\ islas\ Malvinas\ en\ frente\ a\ la\ ciudad\ de\ Rio\ Gallegos\ capital\ de\ la\ provincia\ de\ santa\ Cruz\ geografia\ argentina\ Faustto\ Guerrero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -236,7 +236,7 @@ div .nav a:hover {
 
 /*Header - Cultura*/
 .cultura {
-  background-image: url(/assets/tango.jpg);
+  background-image: url(../../assets/tango.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -265,7 +265,7 @@ div .nav a:hover {
 
 /*Header - Contacto*/
 .contacto {
-  background-image: url(../ASSETS/fondo-contacto.jpg);
+  background-image: url(../../assets/fondo-contacto.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -474,6 +474,7 @@ div .nav a:hover {
 }
 .main-contacto .contenido-contacto .contact-form form p button {
   background-color: blanchedalmond;
+  font-weight: 900;
   border: 0;
   padding: 0.3em;
   width: 100%;
@@ -514,7 +515,7 @@ div .nav a:hover {
 
 /*Footer - Inicio*/
 .contenedor-footer {
-  background-image: url(/assets/fondo-footer.jpg);
+  background-image: url(../../assets/fondo-footer.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -590,7 +591,7 @@ div .nav a:hover {
 }
 /*Footer - Fauna*/
 .contenedorfauna-footer {
-  background-image: url(../ASSETS/foote-fauna.jpg);
+  background-image: url(../../assets/foote-fauna.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -654,7 +655,7 @@ div .nav a:hover {
 }
 /*Footer - Geografia*/
 .contenedorgeo-footer {
-  background-image: url(../ASSETS/footer-geo2.png);
+  background-image: url(../../assets/footer-geo2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -721,7 +722,7 @@ div .nav a:hover {
 }
 /*Footer - Cultura*/
 .contenedorcul-footer {
-  background-image: url(../ASSETS/footer-cultura2.jpg);
+  background-image: url(../../assets/footer-cultura2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
